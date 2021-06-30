@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Employee Satisfaction Survey</h2>
+        </div>
+        <hr>
+        <div class="body">
+            <h4>Name</h4>
+            <input type="text" name="fname" id="fname" placeholder="Enter first name">
+            <input type="text" name="lname" id="lname" placeholder="Enter last name">
+
+            <h4>Date</h4>
+            <input type="date" name="date" id="date">
+
+            <h4>How would you describe your overall level of job satisfaction?</h4>
+            <label for="five"><input type="radio" name="rate" class="satisfy"> Very Satisfied</label>
+            <label for="four"><input type="radio" name="rate" class="satisfy"> Satisfied</label>
+            <label for="three"><input type="radio" name="rate" class="satisfy"> Neutral</label>
+            <label for="two"><input type="radio" name="rate" class="satisfy"> Somewhat dissatisfied</label>
+            <label for="one"><input type="radio" name="rate" class="satisfy"> Very dissatisfied</label>
+
+            <h4>Do you feel valued at work?</h4>
+            <input type="radio" name="choose1" id="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="choose1" id="no">
+            <label for="no">No</label>
+
+            <h4>Does your job cause you stress or anxiety?</h4>
+            <input type="radio" name="choose2" id="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="choose2" id="no">
+
+            <label for="no">No</label>
+            <br><br>
+            <input type="button" value="Submit">
+        </div>
+    </div>
+</body>
+
+</html>
